@@ -9,6 +9,7 @@ Folder Structure
 - Day2 - Day 2 tasks and programs
 - Day3 - Day 3 tasks and programs
 - Day4 - Day 4 tasks and programs
+- Day5 - Day 5 tasks and programs
 
 Technologies Used
 
