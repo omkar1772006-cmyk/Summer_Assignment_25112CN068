@@ -1,0 +1,29 @@
+// Task 1: Write a program that reads an integer from the user and checks if it is a palindrome.
+#include <iostream>
+using namespace std;
+
+bool isPalindrome(int n)
+{
+    int original = n, rev = 0;
+
+    while (n > 0)
+    {
+        rev = rev * 10 + n % 10;
+        n /= 10;
+    }
+
+    return original == rev;
+}
+
+int main()
+{
+    int n;
+    cin >> n;
+
+    if (isPalindrome(n))
+        cout << "Palindrome";
+    else
+        cout << "Not Palindrome";
+
+    return 0;
+}
